@@ -1,5 +1,7 @@
 # Hello, world!
 
+[About](about.html)
+
 ## Food
 
 ### Recipes

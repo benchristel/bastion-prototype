@@ -19,3 +19,6 @@ find -type f -name '*.md' \
         | template "$ROOT/templates/page.html" \
         >"$ROOT/docs/${srcpath%.md}.html"
     done)
+
+rm -rf "$ROOT/docs/assets"
+cp -r "$ROOT/assets" "$ROOT/docs/assets"
