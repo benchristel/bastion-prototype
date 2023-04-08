@@ -4,4 +4,4 @@
 
 ### Recipes
 
-<!--%build/links food/recipes-->
+<!--%links food/recipes-->
