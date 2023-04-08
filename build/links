@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd "$ROOT/src"
+
+echo
+
+find "$1" -maxdepth 1 -type f -name '*.md' | (while read file; do
+  title="$(ag -o '(?<=^# ).*' "$file" | head -1)"
+  echo "- [${title:-$file}](${file%.md}.html)"
+done)
+
+echo

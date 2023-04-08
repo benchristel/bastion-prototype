@@ -1,16 +1,16 @@
 #!/bin/bash
 
-HERE="$(cd "$(dirname "$0")" && pwd)"
+export ROOT="$(cd "$(dirname "$0")" && pwd)"
 
 which md >/dev/null || {
   echo "You need to install 'md' from https://github.com/benchristel/markdown-renderer first"
   exit 1
 }
 
-cd "$HERE/src"
+cd "$ROOT/src"
 
 find -type f -name '*.md' \
   | (while read srcpath; do
-      mkdir -p "$HERE/docs/$(dirname "$srcpath")"
-      <"$srcpath" md | template "$HERE/templates/page.html" >"$HERE/docs/${srcpath%.md}.html"
+      mkdir -p "$ROOT/docs/$(dirname "$srcpath")"
+      <"$srcpath" "$ROOT/build/expander.rb" | md | template "$ROOT/templates/page.html" >"$ROOT/docs/${srcpath%.md}.html"
     done)
