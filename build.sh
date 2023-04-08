@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export ROOT="$(cd "$(dirname "$0")" && pwd)"
-export PATH="$ROOT/build:$PATH"
+export PATH="$ROOT/bin:$PATH"
 
 which md >/dev/null || {
   echo "You need to install 'md' from https://github.com/benchristel/markdown-renderer first"
