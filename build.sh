@@ -22,3 +22,10 @@ find -type f -name '*.md' \
 
 rm -rf "$ROOT/docs/assets"
 cp -r "$ROOT/assets" "$ROOT/docs/assets"
+
+find "$ROOT/docs" -type d \
+  | (while read dir; do
+    if ! [ -e "$dir/index.html" ]; then
+      ln -s ../index.html "$dir/index.html"
+    fi
+  done)
