@@ -26,18 +26,37 @@ body {
   box-shadow: 0 1px 8px #0008;
 }
 
-article {
+#below-header {
   padding: 16px;
 }
 
-@media (min-width: 500px) {
-  ul {
+article h1 {
+  font-size: 30px;
+  text-shadow: 2px 2px #dbd8;
+}
+
+article h2 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 600px) {
+  article > ul {
     columns: 2;
+  }
+
+  article > ul > li {
+    padding-right: 2em;
   }
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
 #splash {
-  background: url("//benchristel.github.io/bastion/assets/landscape.png");
+  background: url("/assets/landscape.png");
   background-size: cover;
   height: 100px;
   width: 100%;
@@ -52,6 +71,11 @@ article {
   margin: 0;
 }
 
+#splash h1 a, #splash h1 a:visited, #splash h1 a:active {
+  color: inherit;
+  border: none;
+}
+
 #splash .attribution {
   font-size: 10px;
 }
@@ -61,10 +85,14 @@ article {
   <body>
     <div id="page">
       <div id="splash">
-        <h1>Bastion</h1>
+        <h1><a href="/">Bastion</a></h1>
       </div>
-      <article>
-        <h1 id="patl-can-silkme-eggplant-shake">Patlıcan Silkme (Eggplant Shake)</h1>
+      <div id="below-header">
+        <nav id="hierarchy-nav">
+          <a href="/">Home</a>
+        </nav>
+        <article>
+          <h1 id="patl-can-silkme-eggplant-shake">Patlıcan Silkme (Eggplant Shake)</h1>
 
 <p><strong><em>This is not an eggplant milkshake, but rather a horribly bastardized version of an Anatolian dish.</em></strong></p>
 
@@ -114,7 +142,9 @@ article {
 
 <p>5/19/2014: Made this for the first time, with cumin and coriander added to the spices above. They didn&#39;t seem to fit, so I didn&#39;t document them in the recipe (all the spices were improvised anyway). We ate this in pita pockets, with cucumber/lettuce/tomato salad. The mint and EVOO added at the table are absolutely essential. The salad was a good base for the eggplant and the cucumbers went well with everything else.</p>
 
-      </article>
+        </article>
+      </div>
+      
     </div>
   </body>
 </html>

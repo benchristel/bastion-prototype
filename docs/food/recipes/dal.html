@@ -26,18 +26,37 @@ body {
   box-shadow: 0 1px 8px #0008;
 }
 
-article {
+#below-header {
   padding: 16px;
 }
 
-@media (min-width: 500px) {
-  ul {
+article h1 {
+  font-size: 30px;
+  text-shadow: 2px 2px #dbd8;
+}
+
+article h2 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 600px) {
+  article > ul {
     columns: 2;
+  }
+
+  article > ul > li {
+    padding-right: 2em;
   }
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
 #splash {
-  background: url("//benchristel.github.io/bastion/assets/landscape.png");
+  background: url("/assets/landscape.png");
   background-size: cover;
   height: 100px;
   width: 100%;
@@ -52,6 +71,11 @@ article {
   margin: 0;
 }
 
+#splash h1 a, #splash h1 a:visited, #splash h1 a:active {
+  color: inherit;
+  border: none;
+}
+
 #splash .attribution {
   font-size: 10px;
 }
@@ -61,10 +85,14 @@ article {
   <body>
     <div id="page">
       <div id="splash">
-        <h1>Bastion</h1>
+        <h1><a href="/">Bastion</a></h1>
       </div>
-      <article>
-        <h1 id="dal">Dal</h1>
+      <div id="below-header">
+        <nav id="hierarchy-nav">
+          <a href="/">Home</a>
+        </nav>
+        <article>
+          <h1 id="dal">Dal</h1>
 
 <p>This is not very authentic, but it&#39;s tasty!</p>
 
@@ -96,7 +124,9 @@ article {
 
 <p>The cooking time for this is roughly the same as the time it takes my rice cooker to make brown rice.</p>
 
-      </article>
+        </article>
+      </div>
+      
     </div>
   </body>
 </html>
