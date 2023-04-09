@@ -155,14 +155,14 @@ a#up-one-directory {
 
 <h4 id="mozilla-developer-network-mdn">Mozilla Developer Network (MDN)</h4>
 
-<form id="262002042226612"><input id="input-262002042226612" type="text" placeholder="search developer.mozilla.org"></form>
+<form id="23683019925500"><input id="input-23683019925500" type="text" placeholder="search developer.mozilla.org"></form>
 
 <script>
 console.log("running script")
-document.getElementById("262002042226612").addEventListener("submit", (e) => {
+document.getElementById("23683019925500").addEventListener("submit", (e) => {
   e.preventDefault()
   console.log("submit event")
-  const search = "site:developer.mozilla.org " + document.getElementById("input-262002042226612").value;
+  const search = "site:developer.mozilla.org " + document.getElementById("input-23683019925500").value;
   const destination = "https://duckduckgo.com?q=" + encodeURIComponent(search);
   window.location = destination;
 });
@@ -172,14 +172,14 @@ document.getElementById("262002042226612").addEventListener("submit", (e) => {
 
 <h4 id="npm">NPM</h4>
 
-<form id="29736982226770"><input id="input-29736982226770" type="text" placeholder="search www.npmjs.com"></form>
+<form id="259372188018857"><input id="input-259372188018857" type="text" placeholder="search www.npmjs.com"></form>
 
 <script>
 console.log("running script")
-document.getElementById("29736982226770").addEventListener("submit", (e) => {
+document.getElementById("259372188018857").addEventListener("submit", (e) => {
   e.preventDefault()
   console.log("submit event")
-  const search = "site:www.npmjs.com " + document.getElementById("input-29736982226770").value;
+  const search = "site:www.npmjs.com " + document.getElementById("input-259372188018857").value;
   const destination = "https://duckduckgo.com?q=" + encodeURIComponent(search);
   window.location = destination;
 });
@@ -189,14 +189,14 @@ document.getElementById("29736982226770").addEventListener("submit", (e) => {
 
 <h4 id="nodejs">NodeJS</h4>
 
-<form id="70011017013160"><input id="input-70011017013160" type="text" placeholder="search nodejs.org"></form>
+<form id="6363322946952"><input id="input-6363322946952" type="text" placeholder="search nodejs.org"></form>
 
 <script>
 console.log("running script")
-document.getElementById("70011017013160").addEventListener("submit", (e) => {
+document.getElementById("6363322946952").addEventListener("submit", (e) => {
   e.preventDefault()
   console.log("submit event")
-  const search = "site:nodejs.org " + document.getElementById("input-70011017013160").value;
+  const search = "site:nodejs.org " + document.getElementById("input-6363322946952").value;
   const destination = "https://duckduckgo.com?q=" + encodeURIComponent(search);
   window.location = destination;
 });
@@ -204,22 +204,90 @@ document.getElementById("70011017013160").addEventListener("submit", (e) => {
 
 <p><a href="https://nodejs.org/en/docs">Browse <strong>nodejs.org/en/docs</strong></a></p>
 
+<h3 id="html-css">HTML, CSS</h3>
+
+<ul>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
+</ul>
+
 <h3 id="go-golang">Go (Golang)</h3>
 
-<form id="32485901311522"><input id="input-32485901311522" type="text" placeholder="search go.dev"></form>
+<form id="477866710374"><input id="input-477866710374" type="text" placeholder="search go.dev"></form>
 
 <script>
 console.log("running script")
-document.getElementById("32485901311522").addEventListener("submit", (e) => {
+document.getElementById("477866710374").addEventListener("submit", (e) => {
   e.preventDefault()
   console.log("submit event")
-  const search = "site:go.dev " + document.getElementById("input-32485901311522").value;
+  const search = "site:go.dev " + document.getElementById("input-477866710374").value;
   const destination = "https://duckduckgo.com?q=" + encodeURIComponent(search);
   window.location = destination;
 });
 </script>
 
 <p><a href="https://go.dev/docs">Browse <strong>go.dev/docs</strong></a></p>
+
+<h3 id="linux">Linux</h3>
+
+<form id="18922482715690"><input id="input-18922482715690" type="text" placeholder="search kernel.org"></form>
+
+<script>
+console.log("running script")
+document.getElementById("18922482715690").addEventListener("submit", (e) => {
+  e.preventDefault()
+  console.log("submit event")
+  const search = "site:kernel.org " + document.getElementById("input-18922482715690").value;
+  const destination = "https://duckduckgo.com?q=" + encodeURIComponent(search);
+  window.location = destination;
+});
+</script>
+
+<p><a href="https://kernel.org">Browse <strong>kernel.org</strong></a></p>
+
+<form id="288482387821594"><input id="input-288482387821594" type="text" placeholder="search man7.org"></form>
+
+<script>
+console.log("running script")
+document.getElementById("288482387821594").addEventListener("submit", (e) => {
+  e.preventDefault()
+  console.log("submit event")
+  const search = "site:man7.org " + document.getElementById("input-288482387821594").value;
+  const destination = "https://duckduckgo.com?q=" + encodeURIComponent(search);
+  window.location = destination;
+});
+</script>
+
+<p><a href="https://man7.org/linux/man-pages/">Browse <strong>man7.org/linux/man-pages/</strong></a></p>
+
+<form id="11760464030635"><input id="input-11760464030635" type="text" placeholder="search wiki.archlinux.org"></form>
+
+<script>
+console.log("running script")
+document.getElementById("11760464030635").addEventListener("submit", (e) => {
+  e.preventDefault()
+  console.log("submit event")
+  const search = "site:wiki.archlinux.org " + document.getElementById("input-11760464030635").value;
+  const destination = "https://duckduckgo.com?q=" + encodeURIComponent(search);
+  window.location = destination;
+});
+</script>
+
+<p><a href="https://wiki.archlinux.org/">Browse <strong>wiki.archlinux.org/</strong></a></p>
+
+<h3 id="hosting">Hosting</h3>
+
+<ul>
+<li><a href="https://fly.io">Fly.io</a></li>
+<li><a href="https://render.com">Render</a></li>
+</ul>
+
+<h2 id="languages">Languages</h2>
+
+<h3 id="tolkiens-elvish">Tolkien&#39;s Elvish</h3>
+
+<ul>
+<li><a href="https://eldamo.org">Eldamo.org</a></li>
+</ul>
 
         </article>
       </div>
