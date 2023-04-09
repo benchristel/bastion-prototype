@@ -1,5 +1,11 @@
 # Hello, world!
 
+<style>
+#hierarchy-nav {
+  display: none;
+}
+</style>
+
 [About](about.html)
 
 ## Food
