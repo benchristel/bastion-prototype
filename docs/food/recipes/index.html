@@ -80,6 +80,10 @@ a {
   font-size: 10px;
 }
 
+a#up-one-directory {
+  display: none;
+}
+
     </style>
   </head>
   <body>
@@ -90,10 +94,21 @@ a {
       <div id="below-header">
         <nav id="hierarchy-nav">
           <a href="/">Home</a> |
-          <a href="..">Up</a>
+          <a id="up-one-directory" href="..">Up</a>
+          <a id="to-local-index-page" href="index.html">Up</a>
         </nav>
         <article>
           <!--default-index-->
+
+<style>
+  a#to-local-index-page {
+    display: none;
+  }
+
+  a#up-one-directory {
+    display: inline;
+  }
+</style>
 
 <h1 id="food-recipes">./food/recipes</h1>
 
