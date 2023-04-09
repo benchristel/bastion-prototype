@@ -10,6 +10,6 @@
   }
 </style>
 
-# %PATH%
+# <!--%dirpath-->
 
 <!--%links .-->

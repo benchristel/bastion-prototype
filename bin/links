@@ -4,7 +4,7 @@ echo
 
 find "$1" -maxdepth 1 -mindepth 1 -type d | (while read dir; do
   dir="${dir#./}"
-  title="$(ag -o '(?<=^# ).*' "$dir/index.md" | head -1)"
+  title="$(ag -o '(?<=^# ) *[^\<].*' "$dir/index.md" | head -1)"
   echo "- [${title:-$dir}]($dir/)"
 done)
 

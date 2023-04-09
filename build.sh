@@ -13,7 +13,7 @@ cd "$ROOT/src"
 find -type d \
   | (while read dir; do
     if ! [ -f "$dir/index.md" ] || grep -q "<!--default-index-->" "$dir/index.md"; then
-      <"$ROOT/templates/default-index.md" sed -e "s|%PATH%|${dir#./}|" >"$dir/index.md"
+      cp "$ROOT/templates/default-index.md" "$dir/index.md"
     fi
   done)
 

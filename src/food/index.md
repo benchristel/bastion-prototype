@@ -10,6 +10,6 @@
   }
 </style>
 
-# food
+# <!--%dirpath-->
 
 <!--%links .-->
