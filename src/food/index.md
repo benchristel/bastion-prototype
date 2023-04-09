@@ -1,0 +1,5 @@
+<!--default-index-->
+
+# ./food
+
+<!--%links .-->
