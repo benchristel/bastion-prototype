@@ -80,8 +80,14 @@ a {
   font-size: 10px;
 }
 
-a#up-one-directory {
-  display: none;
+.mdsite-breadcrumb a:after {
+  display: inline-block;
+  content: '▸';
+  padding: 0 0.5em;
+}
+
+a:hover {
+  background: #0001;
 }
 
     </style>
@@ -93,12 +99,10 @@ a#up-one-directory {
       </div>
       <div id="below-header">
         <nav id="hierarchy-nav">
-          <a href="/">Home</a> |
-          <a id="up-one-directory" href="..">Up</a>
-          <a id="to-local-index-page" href="index.html">Up</a>
+          {{breadcrumb}}
         </nav>
         <article>
-          $$1$$
+          {{content}}
         </article>
       </div>
     </div>

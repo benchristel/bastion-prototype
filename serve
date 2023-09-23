@@ -1,0 +1,2 @@
+#!/bin/sh
+bunx http-server -p 3000 -o -c-1 docs
