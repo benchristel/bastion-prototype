@@ -36,28 +36,35 @@ article h1 {
 }
 
 article h2 {
+  margin-top: 2em;
   border-bottom: 1px solid #bbb;
   padding-bottom: 4px;
 }
 
-@media (min-width: 500px) {
-  article > ul {
-    columns: 2;
-  }
-
-  article > ul > li {
-    padding-right: 2em;
-  }
+article h3 {
+  font-size: 14px;
+  margin-top: 2em;
+  margin-bottom: 0.2em;
+  background: #0001;
 }
 
-@media (min-width: 600px) {
-  article > ul {
-    columns: 3;
-  }
+.columns {
+  column-width: 250px;
+  column-gap: 2em;
+  margin: 1em 0;
+}
 
-  article > ul > li {
-    padding-right: 2em;
-  }
+.columns ul {
+  margin: 0.2em 0;
+  padding-left: 1.5em;
+}
+
+.columns :first-child {
+  margin-top: 0;
+}
+
+.columns :last-child {
+  margin-bottom: 0;
 }
 
 a {
@@ -129,8 +136,12 @@ button:hover {
 }
 
 .omnisearch {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background: #f2f2f2;
+  padding: 16px;
 }
 
 .omnisearch input[type=search] {
@@ -140,7 +151,8 @@ button:hover {
   width: 100%;
   border-radius: 999px;
   border: 1px inset #888;
-  background: url(/assets/search.png);
+  background-color: #fff;
+  background-image: url(/assets/search.png);
   background-size: 18px 18px;
   background-position: calc(100% - 12px) 5px;
   background-repeat: no-repeat;
