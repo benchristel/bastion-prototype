@@ -40,69 +40,69 @@
 
 ### Application Programming
 
-- [eslint.org](eslint.org)
-- cssreference.io
-- css-tricks.com
-- moderncss.dev
-- marked.js.org
-- vitejs.dev
-- preactjs.com
-- react.dev
-- sqlite.org
-- json.org
-- jwt.io
-- jsonpath.com
-- docs.deno.com
-- https://flow.org/
-- typescriptlang.org
-- iconsdb.com
+- [eslint.org](https://eslint.org)
+- [cssreference.io](https://cssreference.io)
+- [css-tricks.com](https://css-tricks.com)
+- [moderncss.dev](https://moderncss.dev)
+- [marked.js.org](https://marked.js.org)
+- [vitejs.dev](https://vitejs.dev)
+- [preactjs.com](https://preactjs.com)
+- [react.dev](https://react.dev)
+- [sqlite.org](https://sqlite.org)
+- [json.org](https://json.org)
+- [jwt.io](https://jwt.io)
+- [jsonpath.com](https://jsonpath.com)
+- [docs.deno.com](https://docs.deno.com)
+- [Flow](https://flow.org/)
+- [typescriptlang.org](https://typescriptlang.org)
+- [iconsdb.com](https://iconsdb.com)
 
 ### Hosting
 
-- [fly.io](fly.io)
-- [render.com](render.com)
-- cloudflare.com
-- supabase.com
-- digitalocean.com
+- [fly.io](https://fly.io)
+- [render.com](https://render.com)
+- [cloudflare.com](https://cloudflare.com)
+- [supabase.com](https://supabase.com)
+- [digitalocean.com](https://digitalocean.com)
 
 ### Systems Programming
 
-- hub.docker.com
-- man7.org
+- [hub.docker.com](https://hub.docker.com)
+- [man7.org](https://man7.org)
 
 ### Engineering
 
-- catb.org
-- buildingbeauty.org
-- beautiful.software
-- refactoring.com
+- [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/html/)
+- [buildingbeauty.org](https://buildingbeauty.org)
+- [beautiful.software](https://beautiful.software)
+- [refactoring.com](https://refactoring.com)
 
 ### Reference
 
-- unicode.org
-- [memorymanagement.org](memorymanagement.org)
-- spectrum.ieee.org
-- lawsofux.com
-- cheatsheetseries.owasp.org
+- [unicode.org](https://unicode.org)
+- [memorymanagement.org](https://memorymanagement.org)
+- [spectrum.ieee.org](https://spectrum.ieee.org)
+- [lawsofux.com](https://lawsofux.com)
+- [cheatsheetseries.owasp.org](https://cheatsheetseries.owasp.org)
 
 ### Help
 
-- [stackoverflow.com](stackoverflow.com)
-- [exercism.org](exercism.org)
+- [stackoverflow.com](https://stackoverflow.com)
+- [exercism.org](https://exercism.org)
 
 ### Blogs
 
-- [tidyfirst.substack.com](tidyfirst.substack.com)
-- [baldurbjarnason.com](baldurbjarnason.com)
-- [softwarecrisis.dev](softwarecrisis.dev)
-- [simonwillison.net](simonwillison.net)
-- [geepawhill.org](geepawhill.org)
-- [third-bit.com](third-bit.com)
-- blog.nelhage.com
-- thecodewhisperer.com
-- dreamsongs.com
-- aiweirdness.com
-- jlelliotton.blogspot.com
+- [tidyfirst.substack.com](https://tidyfirst.substack.com)
+- [baldurbjarnason.com](https://baldurbjarnason.com)
+- [softwarecrisis.dev](https://softwarecrisis.dev)
+- [simonwillison.net](https://simonwillison.net)
+- [geepawhill.org](https://geepawhill.org)
+- [third-bit.com](https://third-bit.com)
+- [blog.nelhage.com](https://blog.nelhage.com)
+- [thecodewhisperer.com](https://thecodewhisperer.com)
+- [dreamsongs.com](https://dreamsongs.com)
+- [aiweirdness.com](https://aiweirdness.com)
+- [jlelliotton.blogspot.com](https://jlelliotton.blogspot.com)
 - https://morrick.me
 
 </div>
@@ -113,17 +113,17 @@
 
 ### Merchants
 
-- [herbco.com](herbco.com)
+- [herbco.com](https://herbco.com)
 
 ### Korean
 
-- maangchi.com
-- koreanbapsang.com
-- mykoreankitchen.com
+- [maangchi.com](https://maangchi.com)
+- [koreanbapsang.com](https://koreanbapsang.com)
+- [mykoreankitchen.com](https://mykoreankitchen.com)
 
 ### Indian
 
-- indianhealthyrecipes.com
+- [indianhealthyrecipes.com](https://indianhealthyrecipes.com)
 
 ### Mediterranean
 
@@ -163,7 +163,7 @@
 
 ### Deciding
 
-- [druthers.app](druthers.app)
+- [druthers.app](https://druthers.app)
 - decisionmatrix.app
 
 ### Communication
@@ -191,9 +191,9 @@
 
 ### Catalogs
 
-- [protondb.com](protondb.com)
-- [store.steampowered.com](store.steampowered.com)
-- [steamdb.info](steamdb.info)
+- [protondb.com](https://protondb.com)
+- [store.steampowered.com](https://store.steampowered.com)
+- [steamdb.info](https://steamdb.info)
 - kongregate.com
 
 ### Hosting
@@ -202,13 +202,13 @@
 
 ### Minecraft
 
-- [minecraft.fandom.com](minecraft.fandom.com)
-- [curseforge.com](curseforge.com)
-- [minecraftmods.com](minecraftmods.com)
+- [minecraft.fandom.com](https://minecraft.fandom.com)
+- [curseforge.com](https://curseforge.com)
+- [minecraftmods.com](https://minecraftmods.com)
 
 ### Age of Empires
 
-- [ageofempires.fandom.com](ageofempires.fandom.com)
+- [ageofempires.fandom.com](https://ageofempires.fandom.com)
 
 ### Heroes of Might and Magic
 
