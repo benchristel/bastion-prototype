@@ -6,6 +6,12 @@
 }
 </style>
 
+<x-search placeholder="Search YouTube" pattern="https://youtube.com/results?search_query=%q"></x-search>
+
+
+
+<x-search placeholder="Search MDN" pattern="https://developer.mozilla.org/en-US/search?q=%q"></x-search>
+
 - [benchristel.github.io/tv](benchristel.github.io/tv)
 - [github.com](github.com)
 - [translate.google.com](translate.google.com)
@@ -70,6 +76,7 @@ cheatsheetseries.owasp.org
 - dreamsongs.com
 - aiweirdness.com
 - jlelliotton.blogspot.com
+- https://morrick.me
 
 ## Food
 
