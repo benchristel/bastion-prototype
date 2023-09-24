@@ -13,8 +13,14 @@ const searchables = {
 const DefaultSearchable = Searchable("#%s")
 
 function setupOmnisearch(element) {
-  const buttons = element.querySelectorAll("button")
   const searchInput = element.querySelector("input[type=search]")
+  searchInput.addEventListener("keypress", (event) => {
+    if (event.key === "Enter") {
+      searchables.duckduckgo.search(searchInput.value)
+    }
+  })
+
+  const buttons = element.querySelectorAll("button")
   for (const button of buttons) {
     const searchable = searchables[button.className] ?? DefaultSearchable()
     button.addEventListener("click", () => {
@@ -26,7 +32,7 @@ function setupOmnisearch(element) {
 function Searchable(pattern, {prefix = ""} = {}) {
   return {
     search(query) {
-      go(pattern.replace("%s", encodeURIComponent(prefix + " " + query)))
+      go(pattern.replace("%s", encodeURIComponent((prefix + " " + query).trim())))
     }
   }
 }

@@ -26,12 +26,15 @@
 </div>
 
 <script>
-  setupOmnisearch(document.querySelector(".omnisearch"))
+  const omnisearch = document.querySelector(".omnisearch")
+  setupOmnisearch(omnisearch)
+  omnisearch.querySelector("input")?.focus()
 </script>
 
 ## Software Development
 
 <div class="columns">
+<section>
 
 ### Application Programming
 
@@ -51,6 +54,10 @@
 - [Flow](https://flow.org/)
 - [typescriptlang.org](https://typescriptlang.org)
 - [iconsdb.com](https://iconsdb.com)
+- [mdsite](https://benchristel.github.io/mdsite)
+- [caniuse.com](https://caniuse.com)
+
+</section><section>
 
 ### Hosting
 
@@ -60,10 +67,14 @@
 - [supabase.com](https://supabase.com)
 - [digitalocean.com](https://digitalocean.com)
 
+</section><section>
+
 ### Systems Programming
 
 - [hub.docker.com](https://hub.docker.com)
 - [man7.org](https://man7.org)
+
+</section><section>
 
 ### Engineering
 
@@ -71,6 +82,8 @@
 - [buildingbeauty.org](https://buildingbeauty.org)
 - [beautiful.software](https://beautiful.software)
 - [refactoring.com](https://refactoring.com)
+
+</section><section>
 
 ### Reference
 
@@ -80,10 +93,14 @@
 - [lawsofux.com](https://lawsofux.com)
 - [cheatsheetseries.owasp.org](https://cheatsheetseries.owasp.org)
 
+</section><section>
+
 ### Help
 
 - [stackoverflow.com](https://stackoverflow.com)
 - [exercism.org](https://exercism.org)
+
+</section><section>
 
 ### Blogs
 
@@ -100,15 +117,20 @@
 - [jlelliotton.blogspot.com](https://jlelliotton.blogspot.com)
 - https://morrick.me
 
+</section>
 </div>
 
 ## Food
 
 <div class="columns">
 
+<section>
+
 ### Merchants
 
 - [herbco.com](https://herbco.com)
+
+</section><section>
 
 ### Korean
 
@@ -116,13 +138,23 @@
 - [koreanbapsang.com](https://koreanbapsang.com)
 - [mykoreankitchen.com](https://mykoreankitchen.com)
 
+</section><section>
+
 ### Indian
 
 - [indianhealthyrecipes.com](https://indianhealthyrecipes.com)
+- [vegrecipesofindia.com](https://www.vegrecipesofindia.com)
+
+</section><section>
 
 ### Mediterranean
 
 - [Ozlem's Turkish Table](https://ozlemsturkishtable.com/)
+- [Binnur's Turkish Cookbook](https://binnurturkishcookbook.blogspot.com/)
+
+</section>
+
+<!--
 - themediterraneandish.com
 
 ### Miscellaneous
@@ -143,6 +175,7 @@
 - bbcgoodfood.com
 - aspicyperspective.com
 - eatingbirdfood.com
+-->
 
 </div>
 
@@ -150,25 +183,35 @@
 
 <div class="columns">
 
+<section>
+
 ### Sensing
 
 - timeanddate.com
 - accuweather.com
 - https://map.purpleair.com
 
+</section><section>
+
 ### Deciding
 
 - [druthers.app](https://druthers.app)
 - decisionmatrix.app
+
+</section><section>
 
 ### Communication
 
 - pop.com
 - [Call](https://benchristel.github.io/call)
 
+</section><section>
+
 ### Creation
 
 - [Excalidraw](https://excalidraw.com)
+
+</section><section>
 
 ### Transformation
 
@@ -177,17 +220,22 @@
 - yamllint.com
 - [Google Translate](https://translate.google.com)
 
+</section><section>
+
 ### Prototyping
 
 - [Taste Playground](https://benchristel.github.io/try-taste/)
 - jsfiddle.net
 - codepen.io
 
+</section>
 </div>
 
 ## Gaming
 
 <div class="columns">
+
+<section>
 
 ### Catalogs
 
@@ -196,9 +244,13 @@
 - [steamdb.info](https://steamdb.info)
 - kongregate.com
 
+</section><section>
+
 ### Hosting
 
 - [server.pro](server.pro)
+
+</section><section>
 
 ### Minecraft
 
@@ -206,28 +258,37 @@
 - [curseforge.com](https://curseforge.com)
 - [minecraftmods.com](https://minecraftmods.com)
 
+</section><section>
+
 ### Age of Empires
 
 - [ageofempires.fandom.com](https://ageofempires.fandom.com)
 
+</section><section>
+
 ### Heroes of Might and Magic
 
-- celestialheavens.com
-- https://maps4heroes.com/
+- [celestialheavens.com](http://celestialheavens.com)
+- [maps4heroes.com](https://maps4heroes.com/)
 - [heroesofmightandmagic.com](https://heroesofmightandmagic.com)
 - [mightandmagic.fandom.com](https://mightandmagic.fandom.com)
 - heroescommunity.com
+
+</section><section>
 
 ### Other Games
 
 - zero-k.info
 - mindustrygame.github.io
 
+</section><section>
+
 ### General / Reference
 
-- [https://www.unitstatistics.com/](https://www.unitstatistics.com/)
+- [unitstatistics.com](https://www.unitstatistics.com/)
 - [lparchive.org](https://lparchive.org)
 
+</section>
 </div>
 
 ## Linux and Computer Hardware
@@ -244,9 +305,11 @@
 
 </div>
 
-## Computer Use
+## Computer Habitability
 
 <div class="columns">
+
+<section>
 
 ### Browser Extensions
 
@@ -254,12 +317,15 @@
 - [LeechBlock NG](https://www.proginosko.com/leechblock/)
 - [uBlock Origin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - [New Tab Override for Firefox](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/)
-- darkreader.org
+- [darkreader.org](https://darkreader.org)
+
+</section><section>
 
 ### Other Tools
 
-- href.li
+- [href.li](https://href.li)
 
+</section>
 </div>
 
 ## Images
@@ -274,6 +340,8 @@
 
 ## Commerce
 
+<div class="columns">
+
 - [herbco.com](https://herbco.com)
 - betterworldbooks.com
 - evertype.com
@@ -281,13 +349,21 @@
 - bandcamp.com
 - alternativeto.net
 
+</div>
+
 ## Archives and Archiving
+
+<div class="columns">
 
 - [archive.org](https://archive.org)
 - [versionmuseum.com](https://versionmuseum.com)
 - [512pixels.net](https://512pixels.net/projects/aqua-screenshot-library/mac-os-x-10-6-snow-leopard/)
 
+</div>
+
 ## Books
+
+<div class="columns">
 
 - [books.google.com](https://books.google.com)
 - [betterworldbooks.com](https://betterworldbooks.com)
@@ -295,7 +371,11 @@
 - [terebess.hu](https://terebess.hu)
 - [exclassics.com](https://exclassics.com)
 
+</div>
+
 ## Music
+
+<div class="columns">
 
 - [universocantigas.gal](https://universocantigas.gal)
 - [butterchurnviz.com](https://butterchurnviz.com)
@@ -305,12 +385,16 @@
 - [lieder.net](https://lieder.net)
 - [bandcamp.com](https://bandcamp.com)
 
+</div>
+
 ## Video
 
 - [vimeo.com](https://vimeo.com)
 - [Invidious](https://vid.puffyan.us)
 
 ## Languages and Linguistics
+
+<div class="columns">
 
 - [akademikernewek.org.uk](https://akademikernewek.org.uk)
 - [cornish-language.org](https://cornish-language.org)
@@ -323,7 +407,11 @@
 - [internationalphoneticalphabet.org](https://internationalphoneticalphabet.org)
 - [dedalvs.com](https://dedalvs.com)
 
+</div>
+
 ## Academia
+
+<div class="columns">
 
 - [researchgate.net](https://researchgate.net)
 - [psyarxiv.com](https://psyarxiv.com)
@@ -331,17 +419,22 @@
 - [apa.org](https://apa.org)
 - [arxiv.org](https://arxiv.org)
 
+</div>
+
 ## Miscellaneous
+
+<div class="columns">
 
 - [permies.com](https://permies.com)
 - [federalregister.gov](https://federalregister.gov)
-- [web.archive.org](https://web.archive.org)
 - [skepdic.com](https://skepdic.com)
 - [patternlanguage.com](https://patternlanguage.com)
 - [patreon.com](https://patreon.com)
 - [en.wikiquote.org](https://en.wikiquote.org)
 - [Wikisource](https://en.wikisource.org/wiki/Main_Page)
 - [A New Pattern Language for Growing Regions](https://npl.wiki)
+
+</div>
 
 ---
 
