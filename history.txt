@@ -5,8 +5,6 @@ github.com
 app.slack.com
 translate.google.com
 benchristel.github.io
-127.0.0.1:3000
-
 google.com
 mail.google.com
 steamcommunity.com
@@ -22,7 +20,6 @@ tidyfirst.substack.com
 server.pro
 lparchive.org
 npl.wiki
-sketchy.biz:8080
 ageofempires.fandom.com
 reddit.com
 minecraftmods.com
@@ -50,15 +47,11 @@ docs.github.com
 developers.cloudflare.com
 archive.org
 third-bit.com
-localhost:3000
 external-content.duckduckgo.com
 biomejs.dev
-10.0.0.1
 simonwillison.net
-prod-znd-230721-15331-bbd12ee.khanacademy.org
 mediafilez.forgecdn.net
 legacy.curseforge.com
-prod-znd-230728-15563-e22be5d.khanacademy.org
 openai.com
 nostr.com
 dashboard.render.com
@@ -79,7 +72,6 @@ news.ycombinator.com
 newegg.com
 mylife.com
 login.fidelity.com
-localhost:8080
 litestream.io
 heroesofmightandmagic.com
 gregbryant.com
@@ -103,7 +95,6 @@ notechmagazine.com
 mykoreankitchen.com
 mobygames.com
 marked.js.org
-localhost:5173
 laurelinarchives.org
 jtarchie.com
 indianhealthyrecipes.com
@@ -121,7 +112,6 @@ barebottle.com
 alternativeto.net
 allrecipes.com
 akademikernewek.org.uk
-127.0.0.1:8080
 zero-k.info
 whitepages.com
 w3schools.com
@@ -188,7 +178,6 @@ buildingbeauty.org
 beautiful.software
 aiweirdness.com
 accuweather.com
-127.0.0.1:8081
 z-uo.medium.com
 zompist.wordpress.com
 yamllint.com
@@ -402,4 +391,3 @@ amazon.com
 academia.edu
 about.gitlab.com
 3.bp.blogspot.com
-0.0.0.0:3000
