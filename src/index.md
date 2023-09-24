@@ -20,6 +20,7 @@
     <button class="unicode">Unicode</button>
     <button class="man7">man7.org</button>
     <button class="iconsdb">iconsdb.com</button>
+    <button class="cornish">Cornish Dictionary</button>
   </div>
 </div>
 
@@ -27,12 +28,10 @@
   setupOmnisearch(document.querySelector(".omnisearch"))
 </script>
 
-- [benchristel.github.io/tv](benchristel.github.io/tv)
-- [github.com](github.com)
-- [translate.google.com](translate.google.com)
-- [benchristel.github.io](benchristel.github.io)
-- [en.wikipedia.org](en.wikipedia.org)
-- [developer.mozilla.org](developer.mozilla.org)
+- [Culture Machine - TV](benchristel.github.io/tv)
+- [Wikipedia](en.wikipedia.org)
+- [Google Translate](translate.google.com)
+
 
 ## Software Development
 

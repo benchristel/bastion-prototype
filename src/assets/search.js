@@ -7,6 +7,7 @@ const searchables = {
   "unicode": Searchable("https://www.fileformat.info/info/unicode/char/search.htm?q=%s&han=Y&preview=entity"),
   "man7": Searchable("https://duckduckgo.com/?q=%s", {prefix: "site:man7.org"}),
   "iconsdb": Searchable("https://www.iconsdb.com/black-icons/?search=%s"),
+  "cornish": Searchable("https://cornishdictionary.org.uk/#%s")
 }
 const DefaultSearchable = Searchable("#%s")
 
