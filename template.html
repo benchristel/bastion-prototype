@@ -26,6 +26,27 @@ body {
   box-shadow: 0 1px 8px #0008;
 }
 
+nav.menu {
+  margin: 6px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+nav.menu a {
+  display: inline-block;
+  min-width: 100px;
+  border: none;
+  padding: 0 12px;
+  line-height: 36px;
+  color: #000;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
 #below-header {
   padding: 16px;
 }
@@ -196,6 +217,10 @@ button:hover {
       <div id="splash">
         <h1><a href="/">Bastion</a></h1>
       </div>
+      <nav class="menu">
+        <a href="https://benchristel.github.io/tv">TV</a>
+        <a href="https://benchristel.github.io/tv">Recipes</a>
+      </nav>
       <div id="below-header">
         <nav id="hierarchy-nav">
           {{breadcrumb}}

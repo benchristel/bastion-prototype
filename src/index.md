@@ -1,4 +1,4 @@
-# Homepage
+<h1 class="sr-only">Homepage</h1>
 
 <style>
 #hierarchy-nav {
@@ -21,18 +21,13 @@
     <button class="man7">man7.org</button>
     <button class="iconsdb">iconsdb.com</button>
     <button class="cornish">Cornish Dictionary</button>
+    <button class="wikipedia">Wikipedia</button>
   </div>
 </div>
 
 <script>
   setupOmnisearch(document.querySelector(".omnisearch"))
 </script>
-
-- [Culture Machine - TV](https://benchristel.github.io/tv)
-- [Ben's Recipes](https://benchristel.github.io/recipes)
-- [Wikipedia](https://en.wikipedia.org)
-- [Google Translate](https://translate.google.com)
-
 
 ## Software Development
 
@@ -171,11 +166,16 @@
 - pop.com
 - [Call](https://benchristel.github.io/call)
 
-### Computation
+### Creation
+
+- [Excalidraw](https://excalidraw.com)
+
+### Transformation
 
 - pngtosvg.com
 - jsonpath.com
 - yamllint.com
+- [Google Translate](https://translate.google.com)
 
 ### Prototyping
 
@@ -253,6 +253,7 @@
 - [addons.mozilla.org](https://addons.mozilla.org)
 - [LeechBlock NG](https://www.proginosko.com/leechblock/)
 - [uBlock Origin for Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- [New Tab Override for Firefox](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/)
 - darkreader.org
 
 ### Other Tools
