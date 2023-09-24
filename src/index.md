@@ -6,53 +6,223 @@
 }
 </style>
 
-[About](about.html)
+- [benchristel.github.io/tv](benchristel.github.io/tv)
+- [github.com](github.com)
+- [translate.google.com](translate.google.com)
+- [benchristel.github.io](benchristel.github.io)
+- [en.wikipedia.org](en.wikipedia.org)
+- [developer.mozilla.org](developer.mozilla.org)
+
+## Software Development
+
+- [eslint.org](eslint.org)
+- [exercism.org](exercism.org)
+- [memorymanagement.org](memorymanagement.org)
+- [stackoverflow.com](stackoverflow.com)
+- [fly.io](fly.io)
+- [render.com](render.com)
+- [npmjs.com](npmjs.com)
+- [biomejs.dev](biomejs.dev)
+- cloudflare.com
+- docs.github.com
+- developers.cloudflare.com
+- catb.org
+- supabase.com
+- spectrum.ieee.org
+- marked.js.org
+- css-tricks.com
+- vitejs.dev
+- preactjs.com
+- sqlite.org
+- moderncss.dev
+- jwt.io
+- json.org
+- docs.deno.com
+- buildingbeauty.org
+- beautiful.software
+- unicode.org
+- iconsdb.com
+- cssreference.io
+- codepen.io
+- yamllint.com
+- typescriptlang.org
+- refactoring.com
+- man7.org
+- lawsofux.com
+- jsonpath.com
+- hub.docker.com
+- gitlab.com
+digitalocean.com
+developers.google.com
+developer.chrome.com
+cheatsheetseries.owasp.org
+
+### Blogs
+
+- [tidyfirst.substack.com](tidyfirst.substack.com)
+- [baldurbjarnason.com](baldurbjarnason.com)
+- [softwarecrisis.dev](softwarecrisis.dev)
+- [simonwillison.net](simonwillison.net)
+- [geepawhill.org](geepawhill.org)
+- [third-bit.com](third-bit.com)
+- blog.nelhage.com
+- thecodewhisperer.com
+- dreamsongs.com
+- aiweirdness.com
+- jlelliotton.blogspot.com
 
 ## Food
 
-### Recipes
+- [herbco.com](herbco.com)
+- mykoreankitchen.com
+- indianhealthyrecipes.com
+allrecipes.com
+minimalistbaker.com
+thespruce.com
+themediterraneandish.com
+tastesbetterfromscratch.com
+thekitchn.com
+recipetineats.com
+cookwithmanali.com
+cookieandkate.com
+holycowvegan.net
+simplyrecipes.com
+seriouseats.com
+natashaskitchen.com
+manilaspoon.com
+maangchi.com
+koreanbapsang.com
+bbcgoodfood.com
+aspicyperspective.com
+eatingbirdfood.com
 
-<!--%links food/recipes-->
 
-## Computing
+## Web-based Tools
 
-### JavaScript
+- [druthers.app](druthers.app)
+- [addons.mozilla.org](addons.mozilla.org)
+- butterchurnviz.com
+- decisionmatrix.app
+- yamllint.com
+- timeanddate.com
+- pop.com
+- pngtosvg.com
+- jsonpath.com
+- codepen.io
 
-#### Mozilla Developer Network (MDN)
+## Gaming
 
-<!--%searchbar developer.mozilla.org https://developer.mozilla.org/en-US/-->
+- [protondb.com](protondb.com)
+- [store.steampowered.com](store.steampowered.com)
+- [server.pro](server.pro)
+- [curseforge.com](curseforge.com)
+- [minecraftmods.com](minecraftmods.com)
+- [minecraft.fandom.com](minecraft.fandom.com)
+- [lparchive.org](lparchive.org)
+- [ageofempires.fandom.com](ageofempires.fandom.com)
+- [heroesofmightandmagic.com](heroesofmightandmagic.com)
+- [mightandmagic.fandom.com](mightandmagic.fandom.com)
+- [steamdb.info](steamdb.info)
+- [https://www.unitstatistics.com/](https://www.unitstatistics.com/)
+- zero-k.info
+- heroescommunity.com
+- mindustrygame.github.io
+- kongregate.com
+- celestialheavens.com
 
-#### NPM
+## Linux and Computer Hardware
 
-<!--%searchbar www.npmjs.com https://www.npmjs.com/-->
+- [frame.work](frame.work)
+- [community.frame.work](community.frame.work)
+- [packagehub.suse.com](packagehub.suse.com)
+- superuser.com
+- packages.fedoraproject.org
+- flathub.org
+- cinnamon-spices.linuxmint.com
 
-#### NodeJS
+## Computer Use
 
-<!--%searchbar nodejs.org https://nodejs.org/en/docs-->
+- darkreader.org
+- https://www.proginosko.com/leechblock/
+- href.li
 
-### HTML, CSS
+## Images
 
-- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- images.freeimages.com
+- flickr.com
+- cliparts.co
 
-### Go (Golang)
+## Educational
 
-<!--%searchbar go.dev https://go.dev/docs-->
+- [khanacademy.org](khanacademy.org)
 
-### Linux
+## Commerce
 
-<!--%searchbar kernel.org https://kernel.org-->
+- [herbco.com](herbco.com)
+- betterworldbooks.com
+- evertype.com
+- newegg.com
+- bandcamp.com
+- alternativeto.net
 
-<!--%searchbar man7.org https://man7.org/linux/man-pages/-->
+## Archives and Archiving
 
-<!--%searchbar wiki.archlinux.org https://wiki.archlinux.org/-->
+- archive.org
+- versionmuseum.com
 
-### Hosting
+## Books
 
-- [Fly.io](https://fly.io)
-- [Render](https://render.com)
+- books.google.com
+- betterworldbooks.com
+- evertype.com
+- terebess.hu
+- exclassics.com
 
-## Languages
+## Music
 
-### Tolkien's Elvish
+- universocantigas.gal
+- butterchurnviz.com
+- open.spotify.com
+- lyricstranslate.com
+- musicanet.org
+- lieder.net
+- bandcamp.com
 
-- [Eldamo.org](https://eldamo.org)
+## Video
+
+- vimeo.com
+- vid.puffyan.us
+
+## Languages and Linguistics
+
+- akademikernewek.org.uk
+- cornish-language.org
+- [cornishdictionary.org.uk](cornishdictionary.org.uk)
+- gocornish.org
+- zompist.com
+- latecornishlittlebits.blogspot.com
+- merriam-webster.com
+- ipachart.com
+- internationalphoneticalphabet.org
+- dedalvs.com
+
+## Academia
+
+- researchgate.net
+- psyarxiv.com
+- academia.edu
+- apa.org
+- arxiv.org
+
+## Miscellaneous
+
+- permies.com
+- federalregister.gov
+- accuweather.com
+- web.archive.org
+- skepdic.com
+- patternlanguage.com
+- patreon.com
+- en.wikiquote.org
+- https://en.wikisource.org/wiki/Main_Page
+- npl.wiki
