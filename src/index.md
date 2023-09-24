@@ -169,6 +169,7 @@ eatingbirdfood.com
 
 - archive.org
 - versionmuseum.com
+- [512pixels.net](https://512pixels.net/projects/aqua-screenshot-library/mac-os-x-10-6-snow-leopard/)
 
 ## Books
 
