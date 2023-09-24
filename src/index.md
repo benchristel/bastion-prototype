@@ -6,11 +6,26 @@
 }
 </style>
 
-<x-search placeholder="Search YouTube" pattern="https://youtube.com/results?search_query=%q"></x-search>
+<div class="omnisearch">
+  <label>
+    <span class="sr-only">Search</span>
+    <input type="search" placeholder="Search">
+  </label>
+  <div class="buttons">
+    <button class="youtube" aria-label="Search YouTube">YouTube</button>
+    <button class="mdn" aria-label="Search MDN">MDN</button>
+    <button class="npm">NPM</button>
+    <button class="github">GitHub</button>
+    <button class="duckduckgo">DuckDuckGo</button>
+    <button class="unicode">Unicode</button>
+    <button class="man7">man7.org</button>
+    <button class="iconsdb">iconsdb.com</button>
+  </div>
+</div>
 
-
-
-<x-search placeholder="Search MDN" pattern="https://developer.mozilla.org/en-US/search?q=%q"></x-search>
+<script>
+  setupOmnisearch(document.querySelector(".omnisearch"))
+</script>
 
 - [benchristel.github.io/tv](benchristel.github.io/tv)
 - [github.com](github.com)
@@ -234,3 +249,7 @@ eatingbirdfood.com
 - en.wikiquote.org
 - https://en.wikisource.org/wiki/Main_Page
 - npl.wiki
+
+---
+
+[About](./about.html)

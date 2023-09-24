@@ -100,6 +100,82 @@ a:hover {
   background: #0001;
 }
 
+button {
+  min-height: 24px;
+  min-width: 60px;
+  background: #ddd;
+  border: 1px solid #0007;
+  border-radius: 5px;
+  box-shadow:
+    inset 2px 0px #fffc,
+    inset 0px 2px #fffc,
+    inset -2px 0px #0002,
+    inset 0px -2px #0002;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+button:active {
+  background: #d6d6d6;
+  box-shadow:
+    inset 2px 0px #0002,
+    inset 0px 2px #0002,
+    inset -2px 0px #fff8,
+    inset 0px -2px #fff8;
+}
+
+button:hover {
+  background: #d6d6d6;
+}
+
+.omnisearch {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.omnisearch input[type=search] {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 100%;
+  border-radius: 999px;
+  border: 1px inset #888;
+  background: url(/assets/search.png);
+  background-size: 20px 20px;
+  background-position: calc(100% - 12px) 4px;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 1px 1px #0005;
+  padding: 0 48px 0 15px;
+}
+
+.omnisearch input[type=search]::after {
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(/assets/search.png);
+  background-size: contain;
+}
+
+.omnisearch .buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 9px;
+}
+
+.omnisearch button {
+  margin: 3px 3px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
     </style>
     <script src="/assets/search.js"></script>
   </head>
