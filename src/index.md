@@ -12,16 +12,16 @@
     <input type="search" placeholder="Search">
   </label>
   <div class="buttons">
-    <button class="youtube" aria-label="Search YouTube">YouTube</button>
-    <button class="mdn" aria-label="Search MDN">MDN</button>
-    <button class="npm">NPM</button>
-    <button class="github">GitHub</button>
-    <button class="duckduckgo">DuckDuckGo</button>
-    <button class="unicode">Unicode</button>
-    <button class="man7">man7.org</button>
-    <button class="iconsdb">iconsdb.com</button>
-    <button class="cornish">Cornish Dictionary</button>
-    <button class="wikipedia">Wikipedia</button>
+    <button class="youtube" title="Search YouTube">YouTube</button>
+    <button class="mdn" title="Search MDN">MDN</button>
+    <button class="npm" title="Search NPM">NPM</button>
+    <button class="github" title="Search GitHub">GitHub</button>
+    <button class="duckduckgo" title="Search with DuckDuckGo">DuckDuckGo</button>
+    <button class="unicode" title="Search Unicode Characters">Unicode</button>
+    <button class="man7" title="Search Man Pages">man7.org</button>
+    <button class="iconsdb" title="Search iconsdb.com">iconsdb.com</button>
+    <button class="cornish" title="Search Cornish Dictionary">Cornish Dictionary</button>
+    <button class="wikipedia" title="Search Wikipedia">Wikipedia</button>
   </div>
 </div>
 
