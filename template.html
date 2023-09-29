@@ -216,6 +216,11 @@ li {
   break-inside: avoid-column;
 }
 
+a > span[aria-hidden] {
+  position: absolute;
+  opacity: 0;
+}
+
     </style>
     <script src="/assets/search.js"></script>
   </head>
@@ -235,6 +240,30 @@ li {
         <nav id="hierarchy-nav">
           {{breadcrumb}}
         </nav>
+        <div class="omnisearch">
+          <label>
+            <span class="sr-only">Search</span>
+            <input type="search" placeholder="Search">
+          </label>
+          <div class="buttons">
+            <button class="youtube" title="Search YouTube">YouTube</button>
+            <button class="mdn" title="Search MDN">MDN</button>
+            <button class="npm" title="Search NPM">NPM</button>
+            <button class="github" title="Search GitHub">GitHub</button>
+            <button class="duckduckgo" title="Search with DuckDuckGo">DuckDuckGo</button>
+            <button class="unicode" title="Search Unicode Characters">Unicode</button>
+            <button class="man7" title="Search Man Pages">man7.org</button>
+            <button class="iconsdb" title="Search iconsdb.com">iconsdb.com</button>
+            <button class="cornish" title="Search Cornish Dictionary">Cornish Dictionary</button>
+            <button class="wikipedia" title="Search Wikipedia">Wikipedia</button>
+          </div>
+        </div>
+        
+        <script>
+          const omnisearch = document.querySelector(".omnisearch")
+          setupOmnisearch(omnisearch)
+          omnisearch.querySelector("input")?.focus()
+        </script>
         <article>
           {{content}}
         </article>

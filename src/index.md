@@ -6,30 +6,7 @@
 }
 </style>
 
-<div class="omnisearch">
-  <label>
-    <span class="sr-only">Search</span>
-    <input type="search" placeholder="Search">
-  </label>
-  <div class="buttons">
-    <button class="youtube" title="Search YouTube">YouTube</button>
-    <button class="mdn" title="Search MDN">MDN</button>
-    <button class="npm" title="Search NPM">NPM</button>
-    <button class="github" title="Search GitHub">GitHub</button>
-    <button class="duckduckgo" title="Search with DuckDuckGo">DuckDuckGo</button>
-    <button class="unicode" title="Search Unicode Characters">Unicode</button>
-    <button class="man7" title="Search Man Pages">man7.org</button>
-    <button class="iconsdb" title="Search iconsdb.com">iconsdb.com</button>
-    <button class="cornish" title="Search Cornish Dictionary">Cornish Dictionary</button>
-    <button class="wikipedia" title="Search Wikipedia">Wikipedia</button>
-  </div>
-</div>
-
-<script>
-  const omnisearch = document.querySelector(".omnisearch")
-  setupOmnisearch(omnisearch)
-  omnisearch.querySelector("input")?.focus()
-</script>
+<section>
 
 ## Software Development
 
@@ -38,24 +15,24 @@
 
 ### Application Programming
 
-- [eslint.org](https://eslint.org)
-- [cssreference.io](https://cssreference.io)
-- [css-tricks.com](https://css-tricks.com)
-- [moderncss.dev](https://moderncss.dev)
-- [marked.js.org](https://marked.js.org)
-- [vitejs.dev](https://vitejs.dev)
-- [preactjs.com](https://preactjs.com)
-- [react.dev](https://react.dev)
-- [sqlite.org](https://sqlite.org)
-- [json.org](https://json.org)
-- [jwt.io](https://jwt.io)
-- [jsonpath.com](https://jsonpath.com)
-- [docs.deno.com](https://docs.deno.com)
-- [Flow](https://flow.org/)
-- [typescriptlang.org](https://typescriptlang.org)
-- [iconsdb.com](https://iconsdb.com)
-- [mdsite](https://benchristel.github.io/mdsite)
-- [caniuse.com](https://caniuse.com)
+- [eslint.org<span aria-hidden="true"> javascript linter js web programming application programming software development</span>](https://eslint.org)
+- [cssreference.io<span aria-hidden="true"> css reference web programming application programming software development</span>](https://cssreference.io)
+- [css-tricks.com<span aria-hidden="true"> css tricks web programming application programming software development</span>](https://css-tricks.com)
+- [moderncss.dev<span aria-hidden="true"> modern css web programming application programming software development</span>](https://moderncss.dev)
+- [marked.js.org<span aria-hidden="true"> marked js javascript markdown web programming application programming software development</span>](https://marked.js.org)
+- [vitejs.dev<span aria-hidden="true"> vite js javascript dev web programming application programming software development</span>](https://vitejs.dev)
+- [preactjs.com<span aria-hidden="true"> preact js javascript web programming application programming software development</span>](https://preactjs.com)
+- [react.dev<span aria-hidden="true"> react js javascript web programming application programming software development</span>](https://react.dev)
+- [sqlite.org<span aria-hidden="true"> sqlite database web programming application programming software development</span>](https://sqlite.org)
+- [json.org<span aria-hidden="true"> json syntax reference javascript web programming application programming software development</span>](https://json.org)
+- [jwt.io<span aria-hidden="true"> json web tokens js javascript web programming application programming software development</span>](https://jwt.io)
+- [jsonpath.com<span aria-hidden="true"> json path js javascript web programming application programming software development</span>](https://jsonpath.com)
+- [docs.deno.com<span aria-hidden="true"> deno js javascript web programming application programming software development</span>](https://docs.deno.com)
+- [Flow<span aria-hidden="true"> static type js javascript web programming application programming software development</span>](https://flow.org/)
+- [typescriptlang.org<span aria-hidden="true"> static type ts js javascript web programming application programming software development</span>](https://typescriptlang.org)
+- [iconsdb.com<span aria-hidden="true"> icon database svg png web programming application programming software development</span>](https://iconsdb.com)
+- [mdsite<span aria-hidden="true"> static site generator js javascript markdown web programming application programming software development</span>](https://benchristel.github.io/mdsite)
+- [caniuse.com<span aria-hidden="true"> js javascript html css web programming application programming software development</span>](https://caniuse.com)
 
 </section><section>
 
@@ -100,25 +77,11 @@
 - [stackoverflow.com](https://stackoverflow.com)
 - [exercism.org](https://exercism.org)
 
-</section><section>
-
-### Blogs
-
-- [tidyfirst.substack.com](https://tidyfirst.substack.com)
-- [baldurbjarnason.com](https://baldurbjarnason.com)
-- [softwarecrisis.dev](https://softwarecrisis.dev)
-- [simonwillison.net](https://simonwillison.net)
-- [geepawhill.org](https://geepawhill.org)
-- [third-bit.com](https://third-bit.com)
-- [blog.nelhage.com](https://blog.nelhage.com)
-- [thecodewhisperer.com](https://thecodewhisperer.com)
-- [dreamsongs.com](https://dreamsongs.com)
-- [aiweirdness.com](https://aiweirdness.com)
-- [jlelliotton.blogspot.com](https://jlelliotton.blogspot.com)
-- https://morrick.me
-
 </section>
 </div>
+</section>
+
+<section>
 
 ## Food
 
@@ -128,7 +91,7 @@
 
 ### Merchants
 
-- [herbco.com](https://herbco.com)
+- [herbco.com<span aria-hidden="true"> food merchants herbco monterey bay herb company</span>](https://herbco.com)
 
 </section><section>
 
@@ -153,31 +116,10 @@
 - [Binnur's Turkish Cookbook](https://binnurturkishcookbook.blogspot.com/)
 
 </section>
-
-<!--
-- themediterraneandish.com
-
-### Miscellaneous
-
-- allrecipes.com
-- minimalistbaker.com
-- thespruce.com
-- tastesbetterfromscratch.com
-- thekitchn.com
-- recipetineats.com
-- cookwithmanali.com
-- cookieandkate.com
-- holycowvegan.net
-- simplyrecipes.com
-- seriouseats.com
-- natashaskitchen.com
-- manilaspoon.com
-- bbcgoodfood.com
-- aspicyperspective.com
-- eatingbirdfood.com
--->
-
 </div>
+</section>
+
+<section>
 
 ## Web-based Tools
 
@@ -230,6 +172,9 @@
 
 </section>
 </div>
+</section>
+
+<section>
 
 ## Gaming
 
@@ -290,6 +235,9 @@
 
 </section>
 </div>
+</section>
+
+<section>
 
 ## Linux and Computer Hardware
 
@@ -304,6 +252,9 @@
 - cinnamon-spices.linuxmint.com
 
 </div>
+</section>
+
+<section>
 
 ## Computer Habitability
 
@@ -327,6 +278,9 @@
 
 </section>
 </div>
+</section>
+
+<section>
 
 ## Images
 
@@ -334,9 +288,17 @@
 - flickr.com
 - cliparts.co
 
+</section>
+
+<section>
+
 ## Educational
 
 - [khanacademy.org](https://khanacademy.org)
+
+</section>
+
+<section>
 
 ## Commerce
 
@@ -350,6 +312,9 @@
 - alternativeto.net
 
 </div>
+</section>
+
+<section>
 
 ## Archives and Archiving
 
@@ -360,6 +325,9 @@
 - [512pixels.net](https://512pixels.net/projects/aqua-screenshot-library/mac-os-x-10-6-snow-leopard/)
 
 </div>
+</section>
+
+<section>
 
 ## Books
 
@@ -372,6 +340,9 @@
 - [exclassics.com](https://exclassics.com)
 
 </div>
+</section>
+
+<section>
 
 ## Music
 
@@ -386,11 +357,18 @@
 - [bandcamp.com](https://bandcamp.com)
 
 </div>
+</section>
+
+<section>
 
 ## Video
 
 - [vimeo.com](https://vimeo.com)
 - [Invidious](https://vid.puffyan.us)
+
+</section>
+
+<section>
 
 ## Languages and Linguistics
 
@@ -408,6 +386,9 @@
 - [dedalvs.com](https://dedalvs.com)
 
 </div>
+</section>
+
+<section>
 
 ## Academia
 
@@ -420,6 +401,9 @@
 - [arxiv.org](https://arxiv.org)
 
 </div>
+</section>
+
+<section>
 
 ## Miscellaneous
 
@@ -435,6 +419,7 @@
 - [A New Pattern Language for Growing Regions](https://npl.wiki)
 
 </div>
+</section>
 
 ---
 

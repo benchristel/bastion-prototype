@@ -20,6 +20,17 @@ function setupOmnisearch(element) {
     }
   })
 
+  searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase()
+    document.querySelectorAll("article :is(li, section, h3)").forEach(el => {
+      if (!el.innerText.toLowerCase().includes(query)) {
+        el.style.display = "none"
+      } else {
+        el.style = ""
+      }
+    })
+  })
+
   const buttons = element.querySelectorAll("button")
   for (const button of buttons) {
     const searchable = searchables[button.className] ?? DefaultSearchable()
