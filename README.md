@@ -1,4 +1,6 @@
-# Bastion
+# Bastion Prototype
+
+**DEPRECATED: see https://github.com/bastionhome/bastionhome.github.io instead**
 
 A human-curated information repository.
 
